@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentación Git</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navegación -->
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li><a href="index.html" >Códigos</a></li>
+        <li><a href="Repositorio.html" class="active">Repositorio en Github </a></li>
+        <li><a href="#" >Notas</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Contenedor principal -->
+  <div class="main-container">
+
+    <!-- Sección Tarjetas (Repositorio) -->
+    <div class="card-section">
+      <h2>Pasos para crear y subir un repositorio a GitHub</h2>
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>1. Crear Repositorio en GitHub</h3>
+          <p>Ir a GitHub y crear un nuevo repositorio. No olvides añadir un README si quieres.</p>
+        </div>
+
+        <div class="card">
+          <h3>2. Clonar Repositorio</h3>
+          <p>Al presionar el boton verde "Code", muestra una URL (.github.io.git). Usa <code>git clone "URL"</code> para copiar el repositorio en tu computadora.</p>
+        </div>
+
+        <div class="card">
+          <h3>3. Ubicandose en la carpeta</h3>
+          <p>Es importante estar dentro de la carpeta, por eso despues de clonar es importane cambiarse a la ubicacion de repositorio usando "cd" </p>
+        </div>
+
+        <div class="card">
+            <h3>4. Primer Commit</h3>
+            <p>Despues de hacer cambios, y gaurdarlos todos ya se puede realizar un commit usando primero :<br><code>git add .</code> y luego <br><code>git commit -m "Primer commit"</code></p>
+          </div>
+
+        <div class="card">
+          <h3>5. Subir a GitHub</h3>
+          <p>Envía los cambios a GitHub con:<br><code>git push origin main,  </code> el "main" puede cambiar dependiendo el tu nombre de rama</p>
+        </div>
+
+        <div class="card">
+          <h3>6. ¿Cómo los puedo publicar?</h3>
+          <p>Desde las configuraciones del repositorio, dirigete a la seccione de GitHub Pages .</p>
+        </div>
+
+        <div class="card">
+            <h3>7. Publicar en GitHub Pages</h3>
+            <p>Asegurate que "Source este seleccionado == Deploy from a branch" y Branch toma la rama main.</p>
+          </div>
+          
+          <div class="card">
+            <h3>8. Es común que suceda</h3>
+            <p>Que no aparezca el dominio o el link a la pagina de nuestro repositorio para ver los resultados, asi que en estos casos cambiamos en branch entre /(root) y /docs hasta que apareza o en su defecto se actualicen los cambios nuevos  </p>
+          </div>
+
+
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
